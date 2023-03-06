@@ -44,7 +44,7 @@ plugins=(
   zsh-autosuggestions
   history-substring-search
 )
-```
+
 
 # Load autocomplete
 autoload -U compinit && compinit
@@ -140,4 +140,4 @@ function clear_git_history() {
     git branch -m master
     git push -f origin master
 }
-
+```
