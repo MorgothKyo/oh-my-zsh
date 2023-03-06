@@ -138,6 +138,6 @@ function clear_git_history() {
     git commit -am "Initialization"
     git branch -D master
     git branch -m master
-    git push -f origin master
+    git push -f origin main
 }
 ```
